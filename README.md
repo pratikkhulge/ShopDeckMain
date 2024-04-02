@@ -36,13 +36,13 @@ Before running this application, ensure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/pratikkhulge/ShopDeck.git
+    git clone https://github.com/pratikkhulge/ShopDeckMain.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd ShopDeck
+    cd ShopDeckMain
     ```
 
 3. Install dependencies:
@@ -56,7 +56,7 @@ Before running this application, ensure you have the following installed:
 1. Set up MySQL:
    
    - Create a MySQL database named `shopdeck`.
-   - Update the MySQL connection details in `main.js` to match your MySQL server configuration.
+   - Update the MySQL connection details in `index.js` to match your MySQL server configuration.
 
 2. Session Secret Key:
    
