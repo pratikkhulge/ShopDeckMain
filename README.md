@@ -9,9 +9,9 @@ ShopDeck is a backend implementation of an e-commerce platform, providing a set 
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
-- [Folder Structure](#folderstructure)
+- [Folder Structure](#folder-structure)
 - [Endpoints](#endpoints)
-- [SQL Queries](#SQLQueries)
+- [SQL Queries](#sql-queries)
 - [License](#license)
 
 ## Features
