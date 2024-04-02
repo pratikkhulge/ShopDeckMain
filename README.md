@@ -71,40 +71,42 @@ npm start
 The server will start running at `http://localhost:3001`.
 
 ## Folder Structure 
-shopdeck-backend/
-│
-├── controllers/
-│   ├── authController.js
-│   ├── productController.js
-│   ├── cartController.js
-│   ├── orderController.js
-│   ├── profileController.js
-│   └── reviewController.js
-│
-├── routes/
-│   ├── authRoutes.js
-│   ├── productRoutes.js
-│   ├── cartRoutes.js
-│   ├── orderRoutes.js
-│   ├── profileRoutes.js
-│   └── reviewRoutes.js
-│
-├── services/
-│   ├── authService.js
-│   ├── productService.js
-│   ├── cartService.js
-│   ├── orderService.js
-│   ├── profileService.js
-│   └── reviewService.js
-│
-├── models/
-│   ├── userModel.js
-│   ├── productModel.js
-│   ├── cartModel.js
-│   ├── orderModel.js
-│   └── reviewModel.js
-│
-└── index.js
+
+- controllers
+  - authController.js
+  - productController.js
+  - cartController.js
+  - orderController.js
+  - profileController.js
+  - reviewController.js
+
+- routes
+  - authRoutes.js
+  - productRoutes.js
+  - cartRoutes.js
+  - orderRoutes.js
+  - profileRoutes.js
+  - reviewRoutes.js
+
+- services
+  - authService.js
+  - productService.js
+  - cartService.js
+  - orderService.js
+  - profileService.js
+  - reviewService.js
+
+- models
+  - userModel.js
+  - productModel.js
+  - cartModel.js
+  - orderModel.js
+  - reviewModel.js
+
+- test.js
+
+- app.js (or index.js)
+
 
 
 ## Endpoints
