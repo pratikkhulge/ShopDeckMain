@@ -9,7 +9,9 @@ ShopDeck is a backend implementation of an e-commerce platform, providing a set 
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
+- [Folder Structure](#folderstructure)
 - [Endpoints](#endpoints)
+- [SQL Queries](#SQLQueries)
 - [License](#license)
 
 ## Features
@@ -111,24 +113,24 @@ The server will start running at `http://localhost:3001`.
 
 ## Endpoints
 
-- **POST /register**: Register a new user.
-- **POST /login**: Log in an existing user.
-- **POST /logout**: Log out the current user.
-- **GET /protected**: Access a protected endpoint (requires authentication).
-- **GET /products**: Get all products.
-- **POST /products**: Add a new product.
-- **PUT /products/:id**: Update a product.
-- **DELETE /products/:id**: Delete a product.
-- **GET /cart**: Get the shopping cart for the current user.
-- **POST /cart**: Add an item to the shopping cart.
-- **DELETE /cart/:itemId**: Remove an item from the shopping cart.
+- **POST /users/register**: Register a new user.
+- **POST /users/login**: Log in an existing user.
+- **POST /users/logout**: Log out the current user.
+- **GET /users/protected**: Access a protected endpoint (requires authentication).
+- **GET /products/all**: Get all products.
+- **POST /product/add**: Add a new product.
+- **PUT /products/update/:id**: Update a product.
+- **DELETE /products/delete/:id**: Delete a product.
+- **GET /cart/all**: Get the shopping cart for the current user.
+- **POST /cart/add**: Add an item to the shopping cart.
+- **DELETE /cart/delete/:itemId**: Remove an item from the shopping cart.
 - **POST /checkout**: Process checkout and create an order.
-- **GET /orders**: Get the orders for the current user.
-- **PUT /orders/:id/cancel**: Cancel an order.
+- **GET /orders/all**: Get the orders for the current user.
+- **PUT /orders/cancel/:id**: Cancel an order.
 - **GET /profile**: Get the profile information for the current user.
-- **PUT /profile**: Update the profile information for the current user.
-- **POST /products/:productId/reviews**: Submit a review for a product.
-- **GET /products/:productId/reviews**: Get reviews for a product.
+- **PUT /profile/update**: Update the profile information for the current user.
+- **POST /reviews/products/:productId**: Submit a review for a product.
+- **GET /reviews/products/:productId**: Get reviews for a product.
 
 ## SQL Queries 
 ```sql
